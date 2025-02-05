@@ -1,0 +1,69 @@
+#VRML_SIM R2023a utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/objects/floors/protos/RectangleArena.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/objects/factory/containers/protos/WoodenBox.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/robots/gctronic/e-puck/protos/E-puck.proto"
+
+WorldInfo {
+}
+Viewpoint {
+  orientation 0.04577110640729321 0.9593635096910285 -0.27843610055372525 0.3393409989879733
+  position -0.22398618038310347 0.3391297546175938 0.2788701577100941
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  translation 0 0 0.07
+  rotation 0 0 1 -0.261795307179586
+  floorTileSize 0.25 0.25
+  wallHeight 0.05
+}
+E-puck {
+  hidden position_0_0 20510.56705462826
+  hidden position_0_1 22633.667665785735
+  hidden linearVelocity_0 -3.274015381767489e-09 8.777922270534571e-10 -1.2659976770616293e-12
+  hidden angularVelocity_0 -1.832904131671623e-11 -2.7436296801336727e-10 -2.0935377802788545e-10
+  hidden rotation_1 0 1 0 2.2502119940896783
+  hidden linearVelocity_1 -3.2753934070859712e-09 8.837435413776171e-10 -8.226752606219291e-12
+  hidden angularVelocity_1 -0.38899983362663926 5.2308025967796775e-05 -6.829331577379694e-05
+  hidden rotation_2 0 1 0 1.6341893248646628
+  hidden linearVelocity_2 -3.27539331192217e-09 8.720066027904415e-10 5.762235130969315e-12
+  hidden angularVelocity_2 -0.38899983360284945 5.228183349760542e-05 -6.830623267300102e-05
+  translation -0.29965166349187283 0.5598638312755859 0.06995957082799176
+  rotation 0.0020194765540300637 -0.0021953438701699203 0.9999955510799731 1.5706667104021306
+  name "e-puck(1)"
+  controller "epunk_go_forward"
+}
+E-puck {
+  hidden position_0_0 20511.351760069556
+  hidden position_0_1 22634.45237789365
+  hidden linearVelocity_0 4.56121066842267e-12 -2.5137580905720826e-12 -1.584983995902197e-12
+  hidden angularVelocity_0 1.136950690322654e-10 -1.0886122341494217e-10 -4.2432266004036944e-08
+  hidden rotation_1 0 1 0 3.0349174353856334
+  hidden linearVelocity_1 3.067651022083865e-10 1.05820099349689e-09 -3.4202862756195712e-12
+  hidden angularVelocity_1 -0.37398525226264817 0.1070314920177734 -0.0003737473744642699
+  hidden rotation_2 0 1 0 2.41890143277861
+  hidden linearVelocity_2 -3.0060931521803153e-10 -1.0633790736844892e-09 3.5060843121533486e-13
+  hidden angularVelocity_2 -0.3739852613854096 0.1070314613152121 -0.00037375760065851463
+  translation 0.5672379603983575 0.3276299148635159 0.06996541796243387
+  rotation 0.001813946100005671 -0.0037312496252746912 0.9999913936508554 1.2920659676853883
+  controller "epunk_go_forward"
+}
+WoodenBox {
+  translation 0.39 0.23 0.12
+  size 0.1 0.1 0.1
+}
+WoodenBox {
+  translation 0 0.27 0.11
+  name "wooden box(1)"
+  size 0.1 0.1 0.1
+}
+WoodenBox {
+  translation 0.31 0 0.09
+  name "wooden box(2)"
+  size 0.1 0.1 0.1
+}
